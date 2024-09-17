@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="images/testtube1.png" alt="Test Tube 1" id="testtube1Image" class="editableImage">
+    <div class="testtube1Text">
+        <h2 id="compound1" class="editableText">Test Tube 1</h2>
+    </div>
+    <img src="images/testtube2.png" alt="Test Tube 2" id="testtube2Image" class="editableImage">
+    <div class="testtube2Text">
+        <h2 id="compound2" class="editableText">Test Tube 2</h2>
+    </div>
+    <img src="images/testtube3.png" alt="Test Tube 3" id="testtube3Image" class="editableImage">
+    <div class="testtube3Text">
+        <h2 id="compound3" class="editableText">Test Tube 3</h2>
+    </div>
+    <img src="images/testtube4.png" alt="Test Tube 4" id="testtube4Image" class="editableImage">
+    <div class="testtube4Text">
+        <h2 id="compound4" class="editableText">Test Tube 4</h2>
+    </div>
+    <img src="images/beaker.png" alt="Beaker" id="beakerImage">
+    <img src="images/fire.png" alt="Fire" id="fireImage" class="editableImage">
+    <img src="images/sun.png" alt="Sun" id="sunImage" class="editableImage">
+
+    <img src="images/reactioncloud.png" alt="Reaction Cloud" id="reactionCloud" class="reactionImage">
+    <h2 id="product1-1" class="product product1 product1-1">Product 1-1</h2>
+
+    <h2 id="product2-1" class="product product2 product2-1">Product 2-1</h2>
+    <h2 id="product2-2" class="product product2 product2-2">Product 2-2</h2>
+
+    <h2 id="product3-1" class="product product3 product3-1">Product 3-1</h2>
+    <h2 id="product3-2" class="product product3 product3-2">Product 3-2</h2>
+    <h2 id="product3-3" class="product product3 product3-3">Product 3-3</h2>
+
+    <h2 id="product4-1" class="product product4 product4-1">Product 4-1</h2>
+    <h2 id="product4-2" class="product product4 product4-2">Product 4-2</h2>
+    <h2 id="product4-3" class="product product4 product4-3">Product 4-3</h2>
+    <h2 id="product4-4" class="product product4 product4-4">Product 4-4</h2>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("click", function () {
+      document.getElementsByClassName("reactionImage")[0].style.display = "none";
+      var products = document.getElementsByClassName("product");
+      for (var i = 0; i < products.length; i++) {
+        products[i].innerHTML = "";
+      }
+    })
+  </script>
+</body>
+</html>

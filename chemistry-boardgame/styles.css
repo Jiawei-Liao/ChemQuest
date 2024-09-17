@@ -1,0 +1,136 @@
+#beakerImage {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#testtube1Image {
+    position: absolute;
+    top: 28%;
+    right: 52.5%;
+}
+
+.testtube1Text {
+    position: absolute;
+    top: 34%;
+    right: 71%;
+}
+
+#testtube2Image {
+    position: absolute;
+    top: 28%;
+    left: 52.5%;
+}
+
+.testtube2Text {
+    position: absolute;
+    top: 34%;
+    left: 71%;
+}
+
+#testtube3Image {
+    position: absolute;
+    top: 15%;
+    right: 50%;
+}
+
+.testtube3Text {
+    position: absolute;
+    top: 21%;
+    right: 68%;
+}
+
+#testtube4Image {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.testtube4Text {
+    position: absolute;
+    top: 21%;
+    left: 68%;
+}
+
+#fireImage {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sunImage {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#reactionCloud {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product1-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product2-1 {
+    position: absolute;
+    top: 42%;
+    left: 38%;
+}
+
+.product2-2 {
+    position: absolute;
+    top: 58%;
+    right: 38%;
+}
+
+.product3-1 {
+    position: absolute;
+    top: 39%;
+    right: 44%;
+}
+
+.product3-2 {
+    position: absolute;
+    top: 57%;
+    left: 37%;
+}
+
+.product3-3 {
+    position: absolute;
+    top: 55%;
+    right: 33%;
+}
+
+.product4-1 {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+
+.product4-2 {
+    position: absolute;
+    top: 36%;
+    right: 37%;
+}
+
+.product4-3 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.product4-4 {
+    position: absolute;
+    top: 53%;
+    right: 35%;
+}
